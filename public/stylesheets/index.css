@@ -1,0 +1,59 @@
+body{
+    background: #e1e1e1;
+}
+.index-page{
+   width: 1000px;  margin: 20px auto;  background: white;
+    -webkit-border-radius:5px;  -moz-border-radius:5px;  -ms-border-radius:5px;  -o-border-radius:5px;  border-radius:5px;
+    -webkit-box-shadow: 0 0 7px -4px #888888;-moz-box-shadow: 0 0 7px -4px #888888;-ms-box-shadow: 0 0 7px -4px #888888;-o-box-shadow: 0 0 7px -4px #888888;box-shadow: 0 0 7px -4px #888888;
+}
+
+h2{
+    padding: 15px;
+    border-bottom: 1px #e1e1e1 solid;
+    margin-bottom: 0;
+}
+.index-page-p{
+    margin: 15px;
+    line-height: 1.7;
+
+}
+.index-bold{
+    background: #98C8EE;
+    padding: 3px;
+    -webkit-border-radius:3px;  -moz-border-radius:3px;  -ms-border-radius:3px;  -o-border-radius:3px;  border-radius:3px;
+}
+.index-tip{
+
+}
+.index-upload{
+    margin-left: 15px;
+}
+.index-file-item{
+    font-style: italic;
+    margin-top: 7px !important;
+    margin-bottom: 7px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.index-file-item-filename{
+
+}
+.index-file-item-status-loading{
+   color: #ff4136;
+    margin-left: 20px;
+}
+.index-file-item-status-end{
+    color: #0074d9;
+    margin-left: 20px;
+}
+.index-file-item-delete{
+      margin-left: 20px;
+}
+.space{
+    margin: 0;
+    padding: 0;
+    height: 15px;
+}
+#js-upload-complete,#css-upload-complete,.index-file-item-delete{
+    line-height: 0.8;
+}

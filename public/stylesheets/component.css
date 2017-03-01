@@ -1,0 +1,26 @@
+.com-titleHeader{
+    background: #444444;  height: 50px;
+}
+.com-titleHeader-a{
+    float: left;  margin-left: 10px;margin-right: 10px;text-decoration: none;
+    width:60px;text-align:center; height: 100%;line-height: 50px;color: #c7c7c7;
+    box-sizing: border-box;
+}
+.com-titleHeader-a:hover{
+    color: white;
+
+}
+.com-titleHeader-a:first-child{
+    margin-left: 30px;
+}
+.com-titleHeader-a-checked{
+    border-bottom: 2px white solid;
+    color: white;
+}
+
+.com-code{
+    border-left: 3px #B4B4B4 solid;
+    margin-left: 30px;  padding-left: 10px;  margin-right: 30px;  padding-right: 10px;
+    white-space: pre-line;
+    color: #555;font-style: italic;
+}
