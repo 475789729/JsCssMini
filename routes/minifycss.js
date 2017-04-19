@@ -17,7 +17,7 @@ var getOriCode = function (files) {
         filename = path.resolve(__dirname, '../uploadfiles', filename);
         formatFilePaths.push(filename);
     }
-    return (new CleanCSS({ compatibility: 'ie7' }).minify(formatFilePaths)).styles;
+    return (new CleanCSS({ compatibility: 'ie7',rebase:false}).minify(formatFilePaths)).styles;
 }
 
 var downloadCode = function (code, req, res, next) {
